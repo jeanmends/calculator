@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif
+    
+}
+body{
+    display: flex;
+    background-color: #181C14;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+    width: 300px;
+    height: 400px;
+    background-color:#080808;
+    border-radius: 5px;
+}
+
+.container h1{
+    color:#ECDFCC;
+    font-size: 2.5rem;
+    align-self: center;
+    margin: 5px;
+    background-color: inherit;
+}
+.display{
+    width: 90%;
+    font-size: 3rem;
+    padding: 5px;
+    background-color: #0e0e0e;
+    border: 3px solid #0e0e0e;
+    color: #ECDFCC;
+    border: none;
+    outline: none;
+
+}
+.display-screen{
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    background-color: #080808;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.display.input:focus{
+    border: none;
+    outline: none;
+}
+
+.display-input{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 250px;
+    font-size: 3rem;
+    gap: 3px;
+    
+}
+
+.display-values{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    background-color: #080808;
+    color:#ECDFCC;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.display-values.clear-all{
+    align-self: center;
+    background-color: rgb(230, 22, 22);
+}
+.display-values.clear-all:hover{
+    background-color: rgb(230, 22, 22);
+}
+.display-values.clear-the-last{
+    align-self: center;
+    background-color: rgb(243, 70, 70);
+}
+.display-values.clear-the-last:hover{
+    background-color: rgb(243, 70, 70);
+}
+
+
+.display-values:hover{
+    background-color: #0e0e0e;
+    cursor: pointer;
+}
+
+.display-operations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    background-color: rgb(91, 13, 164);
+    border-radius: 5px;
+}
+.display-operations-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(91, 13, 164);
+    color:#ECDFCC;
+    gap: 3px;
+    font-size: 3rem;
+    align-self: center;
+    border-radius: 5px;
+}
+.display-operations-inputs:hover{
+background-color:#181C14;
+cursor: pointer;
+}
