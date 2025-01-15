@@ -42,6 +42,8 @@ body{
     color: #ECDFCC;
     border: none;
     outline: none;
+    caret-color: transparent;
+    cursor: default;
 
 }
 .display-screen{
@@ -87,6 +89,9 @@ body{
 }
 .display-values.clear-the-last{
     align-self: center;
+    margin-top: 10px;
+    flex-grow: 0.9;
+    font-size: smaller;
     background-color: rgb(243, 70, 70);
 }
 .display-values.clear-the-last:hover{
